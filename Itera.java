@@ -82,12 +82,6 @@ driver.findElement(By.id("Name")).clear();
 WebElement ele10=driver.findElement(By.id("Name"));
 
 ele10.sendKeys("Mani");
-
-//WebElement ele10=driver.findElement(By.id("searching"));
-
-//
-
-//ele9.sendKeys(Keys.BACK_SPACE);
 Thread.sleep(2000);
 driver.findElement(By.xpath("/html/body/div/form/div/div[7]/div")).click();
 Thread.sleep(2000);
